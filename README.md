@@ -3,7 +3,7 @@
 This table is a project by Shelby Ludlow to show a responsive reusable table using javascript and css, without use of any other styling or table libraries/components.
 
 ## Testing
-To test the table, simply open the `index.html` file in the root folder. The table will render with the test data provided. To change the data displayed in the table and test different outputs, press the button under 'Upload test data in JSON' to upload a JSON file.
+To test the table, simply open the `index.html` file in the root folder. The table will render with the test data provided. To change the data displayed in the table and test different outputs, press the button under 'Upload test data in JSON' to upload a JSON file. The project files include a 'testdata.json' which can be uploaded to use for testing.
 
 ## Assumptions
 We assume the data provided will be in the same format as the test data. i.e it will be a JSON object with the 'data' property of an array, each with the 'dimension' and 'metrics' properties. The example below shows expectations.
