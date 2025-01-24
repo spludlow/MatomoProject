@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Matomo project - reusable table" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="components/responsiveTable.css">
+    <title>Shelby Ludlow Table</title>
+</head>
+<style>
+    body {
+        font-family: 'Roboto';
+    }
+
+    #table-container {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <section id="data-section">
+        <div>Upload test data in json:</div>
+        <input type="file" id="upload-test-data" />
+    </section>
+    <section id="table-section">
+        <h2 class="title">Reusable Responsive Table</h2>
+        <div id="table-container">
+            <div id="table-root"></div>
+        </div>
+    </section>
+    <script src="components/responsiveTable.js"></script>
+</body>
+
+</html>

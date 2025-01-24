@@ -1,0 +1,8 @@
+{
+  "name": "matomoproject",
+  "version": "1.0.0",
+  "description": "take home project to make a responsive table",
+  "main": "index.js",
+  "author": "Shelby Ludlow",
+  "license": "MIT"
+}
